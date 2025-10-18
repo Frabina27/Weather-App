@@ -1,18 +1,12 @@
-# 🌤️ Weather App
-
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Frabina27/Weather-App)
-![GitHub Issues](https://img.shields.io/github/issues/Frabina27/Weather-App)
-![GitHub License](https://img.shields.io/github/license/Frabina27/Weather-App)
+# Weather App
 
 A clean and interactive **Weather App** that lets users check the current weather in any city. Built with **HTML**, **CSS**, and **JavaScript**, it fetches real-time weather data and presents it in a user-friendly interface.
 
 ---
 
-## 📌 Features
-- 🌍 Search weather by city name  
-- 🌡️ Displays temperature, humidity, wind speed, and description  
-- 🎨 Dynamic background based on current weather  
-- 📱 Responsive design for desktop and mobile  
+## Features
+- Search weather by city name  
+- Displays temperature!
 
 ---
 
@@ -23,14 +17,25 @@ A clean and interactive **Weather App** that lets users check the current weathe
 
 ---
 
+## 🔑 API Key Setup
 
-## 📂 Installation / Usage
+This app uses the **OpenWeatherMap API** (or another weather API of your choice) to fetch live weather data.  
+You’ll need to **get your own free API key** to make it work.
 
-```bash
-# Clone the repository
+1. Go to [OpenWeatherMap](https://openweathermap.org/api)
+2. Sign up for a free account
+3. Generate an API key
+4. In your JavaScript file, find the line where the API key is used (for example):
+   ```js
+   const apiKey = "YOUR_API_KEY_HERE";
+
+   # Clone the repository
 git clone https://github.com/Frabina27/Weather-App.git
 
 # Navigate to the project folder
 cd Weather-App
+
+# Open index.html in your browser
+
 
 # Open index.html in your browser
