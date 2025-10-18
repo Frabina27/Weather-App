@@ -36,3 +36,4 @@ git clone https://github.com/Frabina27/Weather-App.git
 cd Weather-App
 
 # Open index.html in your browser
+You're all done! :)
